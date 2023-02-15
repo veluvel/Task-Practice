@@ -1,0 +1,60 @@
+.d-flex{
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(181, 240, 114);
+  padding: 50px;
+  gap: 30px;
+}
+.right{
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 5px 10px 0 black;
+}
+.left{
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 5px 10px 0 black;
+}
+.word{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.word input{
+  width: 60%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid ;
+}
+.word input:focus{
+  outline: none;
+}
+.word button{
+  width: 20%;
+  font-size: 20px;
+  padding: 18px;
+  margin: 10px;
+  border-radius: 10px;
+  background: rgb(49, 139, 255);
+  color: white;
+  border: none;
+}
+.count{
+  font-size: 20px;
+  padding-left: 120px;
+}
+
+/******************************************/
+
+.head{
+  background:  rgb(49, 139, 255);
+  padding: 2px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
